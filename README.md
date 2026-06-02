@@ -1,5 +1,8 @@
 # Atrás Registrado
 
+<p align="center"> 
+  <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge"/>
+</p>
 
 > Status do Projeto ⚠️ (Em desenvolvimento).
 
@@ -9,11 +12,13 @@
 
 🔹 [Funcionalidades](#funcionalidades)
 
-🔹 [Deploy da Aplicação](#deploy-da-aplicação-dash)
+🔹 [Deploy da Aplicação](#deploy-da-aplicação)
 
 🔹 [Pré-requisitos](#pré-requisitos)
 
-🔹 [Como rodar a aplicação](#como-rodar-a-aplicação-arrow_forward)
+🔹 [Como rodar a aplicação](#como-rodar-a-aplicação)
+
+🔹 [Padrão de commits e branches](#padrão-de-commits-e-branches)
 
 ## Descrição do projeto 
 
@@ -31,3 +36,40 @@
 
 🟩 Remove um jogo que você adicionou 
 
+## Deploy da aplicação
+
+...
+
+## Pré-requisitos
+
+⚠️ [Node](https://nodejs.org/en/download/)
+
+...
+
+## Como rodar a aplicação
+
+...
+
+## Padrão de commits e branches
+
+Como é um projeto pequeno, não gostaria de ficar me embolando em organização de branches e padrão de commits, então fui bem simplista nessa etapa:
+
+### Branches
+
+Serão branches de apenas dois níveis, a `main` como principal e as outras duas como filhas:
+
+✅ `main`: Nessa branch só entra o código final, tentarei ao máximo não upar código diretamente.
+
+🔧 `fix`: Branch para consertar algum bug ou corrigir algo.
+
+➕ `feat`: Quando alguma funcionalidade, dependência ou algo novo for desenvolvido / adicionado.
+
+### Commits
+
+Vão ser apenas 3 prefixos para os commits:
+
+🔧 `fix` Quando alguma funcionalidade, dependência ou algo novo for desenvolvido / adicionado.
+
+➕ `feat` Quando for corrigido algum bug ou erro de digitação.
+
+📰 `docs` Para alterações no `README.md`.
