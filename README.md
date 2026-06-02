@@ -20,6 +20,8 @@
 
 🔹 [Padrão de commits e branches](#padrão-de-commits-e-branches)
 
+🔹 [Linguagens, dependências e libs utilizadas](#linguagens-dependências-e-libs-utilizadas)
+
 ## Descrição do projeto 
 
 <p align="justify">
@@ -68,8 +70,15 @@ Serão branches de apenas dois níveis, a `main` como principal e as outras duas
 
 Vão ser apenas 3 prefixos para os commits:
 
-🔧 `fix` Quando alguma funcionalidade, dependência ou algo novo for desenvolvido / adicionado.
+🔧 `fix` Quando for corrigido algum bug ou erro de digitação.
 
-➕ `feat` Quando for corrigido algum bug ou erro de digitação.
+➕ `feat` Quando alguma funcionalidade, dependência ou algo novo for desenvolvido / adicionado.
 
 📰 `docs` Para alterações no `README.md`.
+
+## Linguagens, dependências e libs utilizadas
+
+- [Express](https://www.npmjs.com/package/express)
+- [nodemon](https://www.npmjs.com/package/nodemon)
+- [dotenv](https://www.npmjs.com/package/dotenv)
+
