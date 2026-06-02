@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/EARNascimento/atras-registrado/issues"
   },
-  "homepage": "https://github.com/EARNascimento/atras-registrado#readme"
+  "homepage": "https://github.com/EARNascimento/atras-registrado#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
 }
