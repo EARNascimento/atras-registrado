@@ -4,10 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Atrás-Registrado</title>
 </head>
 <body>
+    <div class="container-md mt-4 d-flex gap-2">
+        <input type="text" id="input-busca" class="form-control" placeholder="Digite o nome de um jogo...">
+        <div>
+            <button type="button" id="btn-busca" class="btn btn-outline-success">Buscar</button>
+        </div>
+    </div>
+
+    <div id="resultados-busca" class="container-md mt-4 row row-cols-1 row-cols-md-3 g-3">
+    </div>
+
+    <div id="meu-backlog" class="container-md mt-5 row row-cols-1 row-cols-md-3 g-3">
+    </div>
+
+
+    <!--Modal para Editar as Avaliações-->
+    <div class="modal fade" id="modalEditarNota" tabindex="-1" aria-labelledby="modalEditarNotaLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalEditarNotaLabel">Editar Avaliação</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <input type="hidden" id="edit-jogo-id">
+        
+        <div class="mb-3">
+          <label for="edit-jogo-rating" class="form-label">Sua Nota (0 a 5):</label>
+          <select class="form-select" id="edit-jogo-rating">
+            <option value="1">⭐</option>
+            <option value="2">⭐⭐</option>
+            <option value="3">⭐⭐⭐</option>
+            <option value="4">⭐⭐⭐⭐</option>
+            <option value="5">⭐⭐⭐⭐⭐</option>
+          </select>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+        <button type="button" class="btn btn-primary" id="btn-salvar-nota">Salvar Alterações</button>
+      </div>
+    </div>
+  </div>
+</div>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>
