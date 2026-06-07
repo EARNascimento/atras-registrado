@@ -40,13 +40,15 @@
 
 ## Deploy da aplicação
 
-...
+<p align="center">
+  <img src="assets/app-gif.gif" alt="Aplicativo em Funcionamento">
+</p>
 
 ## Pré-requisitos
 
-⚠️ [Node](https://nodejs.org/en/download/)
-
-...
+- HTML5 / CSS3 / Bootstrap 5
+- JavaScript (Manipulação de DOM e Fetch API)
+- Node.js & Express
 
 ## Como rodar a aplicação
 
