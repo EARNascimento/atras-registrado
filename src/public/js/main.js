@@ -72,12 +72,12 @@ async function carregarBacklog() {
             // IMPORTANTE: Use as propriedades exatas que o seu servidor printou no console
             containerBacklog.innerHTML += `
                 <div class="col">
-                    <div class="card h-100 shadow-sm">
-                        <img src="${jogo.coverUrl || ''}" class="card-img-top" alt="${jogo.title || 'Jogo'}">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title">${jogo.title || 'Sem título'}</h5>
-                            <p class="card-text text-warning fs-5 mb-3">${estrelas}</p>
-                            <div class="mt-auto d-flex gap-2">
+                    <div class="card shadow-sm" style="max-width: 180px;">
+                        <img src="${jogo.coverUrl || ''}" class="card-img-top" alt="${jogo.title || 'Jogo'}" style="width: 100%; aspect-ratio: 3/4; object-fit: cover;">
+                        <div class="card-body d-flex flex-column p-2">
+                            <h6 class="card-title" style="font-size: 0.85rem;">${jogo.title || 'Sem título'}</h6>
+                            <p class="card-text text-warning mb-2" style="font-size: 0.85rem;">${estrelas}</p>
+                            <div class="d-flex gap-1 mt-auto">
                                 <button class="btn btn-sm btn-outline-primary flex-grow-1" onclick="editarAvaliacao(${jogo.id})">Editar</button>
                                 <button class="btn btn-sm btn-outline-danger" onclick="removerJogo(${jogo.id})">Remover</button>
                             </div>
