@@ -32,14 +32,16 @@ function renderizarResultados(resultados) {
 
     resultados.forEach(jogo => {
         // Dentro do forEach da função renderizarResultados:
-        const urlPronta = jogo.cover ? 'https:' + jogo.cover.url : '';
+        const urlPronta = jogo.cover 
+    ? 'https:' + jogo.cover.url.replace('t_thumb', 't_cover_big') 
+    : '';
 
-        containerResultados.innerHTML += `
-            <div class="card">
-                <img src="${urlPronta}" alt="${jogo.name}">
-                <div class="card-body">
-                    <h5 class="card-title">${jogo.name}</h5>
-                    <button onclick="adicionarJogo(${jogo.id}, '${jogo.name.replace(/'/g, "\\'")}', '${urlPronta}')">
+                containerResultados.innerHTML += `
+            <div class="card" style="max-width: 180px;">
+                <img src="${urlPronta}" alt="${jogo.name}" style="width: 100%; aspect-ratio: 3/4; object-fit: cover;">
+                <div class="card-body p-2">
+                    <h6 class="card-title" style="font-size: 0.85rem;">${jogo.name}</h6>
+                    <button class="btn btn-sm btn-outline-success" onclick="adicionarJogo(${jogo.id}, '${jogo.name.replace(/'/g, "\\'")}', '${urlPronta}')">
                         Adicionar ao Backlog
                     </button>
                 </div>
