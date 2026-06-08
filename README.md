@@ -3,6 +3,25 @@
 <p align="center"> 
   <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge"/>
 </p>
+<p>
+  <img src="https://img.shields.io/badge/Bootstrap-7952B3?logo=bootstrap&logoColor=fff">
+</p>
+<p>
+  <img src="https://img.shields.io/badge/Express.js-%23404d59.svg?logo=express&logoColor=%2361DAFB">
+</p>
+<p>
+  <img src="https://img.shields.io/badge/Node.js-6DA55F?logo=node.js&logoColor=white">
+</p>
+<p>
+  <img src="https://img.shields.io/badge/npm-CB3837?logo=npm&logoColor=fff">
+</p>
+<p>
+  <img src="https://img.shields.io/badge/Nodemon-76D04B?logo=nodemon&logoColor=fff">
+</p>
+<p>
+  <img src="https://img.shields.io/badge/HTML-%23E34F26.svg?logo=html5&logoColor=white">
+</p>
+
 
 > Status do Projeto ⚠️ (Em desenvolvimento).
 
