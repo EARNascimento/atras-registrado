@@ -12,7 +12,8 @@
   <img src="https://img.shields.io/badge/Express.js-%23404d59.svg?logo=express&logoColor=%2361DAFB">
   <img src="https://img.shields.io/badge/Nodemon-76D04B?logo=nodemon&logoColor=fff">
 </p>
-> Status do Projeto ⚠️ (Em desenvolvimento).
+
+>Status do Projeto ⚠️ (Em desenvolvimento).
 
 ### Tópicos
 
