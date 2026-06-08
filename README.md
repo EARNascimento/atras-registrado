@@ -35,6 +35,7 @@
 
 <p align="justify">
   O Atrás Registrado é a tentativa de clonar algumas funções do website <a href="https://backloggd.com/" target="_blank">Backloggd</a>, é um pequeno projeto para apresentação para a minha aula de Sistemas Web, ele vai ser feito com HTML, CSS (Boostrap), JavaScript, Express, Node.JS.
+  Utilizei do banco de dados <a href="">IGDB</a> para realizar as consultas, dessa forma eu consigo exibir o nome e a capa do jogo. 
 </p>
 
 ## Funcionalidades
@@ -93,3 +94,8 @@ Vão ser apenas 3 prefixos para os commits:
 - [nodemon](https://www.npmjs.com/package/nodemon)
 - [dotenv](https://www.npmjs.com/package/dotenv)
 
+## Tarefas pendentes
+
+🟩 Ao realizar as buscas, o IGDB retorna DLC's e cosméticos vendidos separadamente. Por exemplo, ao realizar a busca "Dead By Daylight", ele primeiramente retorna as DLC's (Que são muitas) e lá no final o jogo é exibido. Como eu tinha colocado um limite de 10 itens por busca, se por algum acaso ele retornasse 10 DLC's, não seria possível visualizar o jogo principal.
+
+🟩 Ao terminar de adicionar os jogos, poderia ter um botão de limpar para tirar os jogos do contâiner de busca, eles só somem se você recarregar a página.
